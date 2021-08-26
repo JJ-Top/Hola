@@ -8,11 +8,11 @@ const path = require('path');
 
 
 //instanciar los objetos arriba requeridos
-const web3 = new Web3('https://ropsten.infura.io/v3/c5f94f23797c47ecb5fb633740ae8e2f')
+const web3 = new Web3('https://ropsten.infura.io/v3/zzf94f23797c47ecb5fb633740ae8ezz')
 
 //como vamos a trabajar en ropsten vamos a usar las cuentas en ella
-const address1 = '0x4AF92bF32A3824641c813013e108e5C1aAD90C3E';//
-const addresskey1 = new Buffer.from('201059fbefe95a7e28ceb4955dd3afbe2bf0455bc7473c73649d90ceaf336a22', 'hex');
+const address1 = 'zz4AF92bF32A3824641c813013e108e5C1aAD90Czz';//
+const addresskey1 = new Buffer.from('zz1059fbefe95a7e28ceb4955dd3afbe2bf0455bc7473c73649d90ceaf336azz', 'hex');
 
 //ahora vamos a deploy. la cual se hace de una transacc cualquiera, tenemos que Generar el objeto, Firmarlo y Enviarlo al nodo escogido.
 //solo que en esta transacc va a incluir :data: y el :to: no se requiere, debe ir omitido o nulo
